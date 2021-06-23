@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>My Data</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+   
+    </head>
+
+    <body>
+<h3>Personal Information</h3>
+<form>
+    <fieldset>
+        <legend>Application Form</legend>
+    <label for="First Name">Enter First Name :</label>
+     <input type="text" id="First Name" name="First Name" placeholder="Firstname" value="Siva" class="name">
+     <label for="Last Name">Enter Last Name  :</label>
+    <input type="text" id="Last Name" name="Last Name" value="Kumar" class="name"><br/>
+    <label for="age">Age :</label>
+    <input type="number" id="age" name="age"><br/>
+    <label for="date">Date Of Birth </label>
+    <input type="date"><br/>
+    <label for="date">Gender</label>
+     <select> 
+        <option value="gender">male</option>
+        <option value="gender">female</option>
+        <option value="gender">other</option>
+
+    </select><br/>
+    Address          :<textarea rows="2" cols="100"></textarea><br/>
+    
+        <label for="password">password</label>
+        <input type="password" id="password" >
+    </fieldset>
+  <img src="lightOff.PNG" alt="lightOff" width="100" height="100" id="l1">
+
+    <p id="demo">Good Morning</p>
+    <button id="btn" onmouseover="callme()" onmouseout="doNotCallme()">Save</button>
+</form>
+<script src="code.js"></script>
+    </body>
+</html>

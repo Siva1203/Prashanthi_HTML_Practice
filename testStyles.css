@@ -1,0 +1,42 @@
+nav {
+    background-color: black;    
+    text-align: center;
+    height: 2.5em;
+    padding: 5px;
+}
+
+.navAnchor{
+    color: silver;
+    margin: 2em;
+    font-size: medium;
+}
+
+.shopClass{
+    text-align: center;
+    padding: 5px;
+}
+
+.mainHeader{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.mainAnchor{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.mainDiv{
+    background-color: #bfe2e8;
+}
+
+.iPhone{
+    background-color: cornsilk;
+}
+
+nav > a:hover{
+    text-decoration:none !important;
+    color: white;
+}

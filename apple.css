@@ -1,0 +1,46 @@
+.navClass{
+    background-color: black;
+    height: 2.5em;
+    text-align: center;
+    padding: 5px;
+    
+}
+.shopClass{
+    text-align: center;
+    padding: 5px;
+}
+
+.navAnchor{
+    margin: 2em;
+    color: silver;
+}
+.mainClass{
+    text-align: center;
+    background-color: #bfe2e8;
+}
+
+.mainClass > p {
+    font-size: 50px;
+}
+.mainClass > a {
+    font-size: 20px;
+}
+.navClass > nav > a:hover{
+    color: white;
+    text-decoration: none !important;
+}
+.iPhoneClass  {
+
+    text-align: center;
+}
+.pg {
+    font-size: 50px;
+}
+.text{
+    font-size: 20px;
+}
+.iPhoneClass12  {
+background-color: black;
+color: white;
+    text-align: center;
+}
